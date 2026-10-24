@@ -1,7 +1,8 @@
 ```css
-
 img {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid #d8d9cb;
     padding: 6px;
     background-color: #faf8f3;
@@ -13,31 +14,54 @@ img {
 }
 
 
-figure .side-by-side {
+body > img,
+p > img {
+    display: block;
+    width: 70%;
+    max-width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+figure {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure img {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+figure.side-by-side {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    gap: 12px;
+    gap: 15px;
     width: 100%;
     box-sizing: border-box;
+    margin: 20px auto;
 }
 
-figure .side-by-side img {
+figure.side-by-side img {
     display: block;
     flex: 1 1 0;
-    width: calc(50% - 6px);
+    width: calc(50% - 8px);
     max-width: calc(50% - 6px);
     min-width: 0;
     height: auto;
     object-fit: contain;
 }
 
-
 h1, h2, h3, p, figcaption {
+    text-align: center;
     font-family: 'Quicksand', sans-serif;
 }
-
 
 h1 {
     font-family: 'Quicksand', sans-serif;
@@ -48,24 +72,23 @@ h1 {
     text-align: center;
 }
 
-/* CHANGE H2 FONT */
 h2 {
     font-family: 'DM Serif Display', Georgia, serif;
     font-size: 1.8em;
     font-weight: 400;
     color: #a98585;
+    text-align: center;
 }
 
-/* CHANGE H3 FONT */
 h3 {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.3em;
     font-weight: 700;
     color: #68745d;
     letter-spacing: 0.5px;
+    text-align: center;
 }
 
-/* SMALLER, MORE PLAYFUL PARAGRAPH TEXT */
 p {
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
@@ -73,8 +96,8 @@ p {
     line-height: 1.8;
     color: #68745d;
     letter-spacing: 0.3px;
+    text-align: center;
 }
-
 
 figcaption {
     font-family: 'Quicksand', sans-serif;
@@ -85,7 +108,6 @@ figcaption {
     text-align: center;
     margin-top: 12px;
 }
-
 
 nav {
     text-align: center;
@@ -116,3 +138,4 @@ nav a:hover {
     color: #faf8f3;
     border-radius: 20px;
 }
+```
