@@ -1,20 +1,118 @@
-body {
-
-    /*background:papayaWhip*/
-    background: LightGrey;
-    font-family: AbrilFatface, JosefinSans, Helvetica, sans-serif;
-}
-
-div.side-by-side {
-    display: flex;
-}
+```css
 
 img {
-    width: 59%;
-    max-width: 500px;
+    display: block;
+    border: 3px solid #d8d9cb;
+    padding: 6px;
+    background-color: #faf8f3;
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 3px 8px rgba(80, 85, 65, 0.12);
 }
 
-.featureBlock {
-    background-color:pink;
-    font-size: smaller;
+
+figure .side-by-side {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+figure .side-by-side img {
+    display: block;
+    flex: 1 1 0;
+    width: calc(50% - 6px);
+    max-width: calc(50% - 6px);
+    min-width: 0;
+    height: auto;
+    object-fit: contain;
+}
+
+
+h1, h2, h3, p, figcaption {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    color: #68745d;
+    text-align: center;
+}
+
+/* CHANGE H2 FONT */
+h2 {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #a98585;
+}
+
+/* CHANGE H3 FONT */
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #68745d;
+    letter-spacing: 0.5px;
+}
+
+/* SMALLER, MORE PLAYFUL PARAGRAPH TEXT */
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.8;
+    color: #68745d;
+    letter-spacing: 0.3px;
+}
+
+
+figcaption {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #68745d;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 12px;
+}
+
+
+nav {
+    text-align: center;
+    line-height: 2.5;
+    background-color: #e8e5d9;
+    padding: 14px;
+    border: 2px solid #d8d9cb;
+    border-radius: 22px;
+    margin: 20px auto;
+    box-shadow: 0 3px 8px rgba(80, 85, 65, 0.10);
+}
+
+nav a {
+    display: inline-block;
+    color: #68745d;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 3px;
+    border-radius: 20px;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+nav a:hover {
+    background-color: #a98585;
+    color: #faf8f3;
+    border-radius: 20px;
 }

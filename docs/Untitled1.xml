@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        
+        <title>DIGIT 100</title>
+        
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Here is a place where we can add a little styling code called CSS to this page. 
+            I used it to apply a background color to the body element.
+        -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
+        <h1>Digit 100</h1>
+        <nav>
+            <a href="index.html">Overview</a> | <a href="about.html">Past productions</a> | <a><a href="Gallery.html">Current Production</a> | <a href="photography.html"> Other </a> <a href="Untitled1.xml.html">Digit 100</a>
+        </nav>
+        <!-- See this <nav> element? ˆˆˆˆˆ It's for a navigation menu. 
+            We set this up with RELATIVE links to other HTML files 
+            that you will find in the same folder with this index.html. 
+        -->
+        <p>Outside of school and theatre, I work as a customer service emloyee at Wegmans. </p> 
+        <img src="images/IMG_4753.JPG"/>
+        <p> I additionally am a model for my friends photography business!</p>
+        <p>Take a look at some of the photos! 
+            <img src="images/Facetune_24-02-2026-16-58-15.jpeg"/>
+            <img src="images/IMG_7129.jpeg"/>
+            <img src="images/IMG_7769.jpeg"/>
+            <img src="images/IMG_7767.jpeg"/>
+            <img src="images/IMG_7780.JPG"/>
+            <img src="images/IMG_0586.PNG"/>
+            <img src="images/IMG_0589.PNG"/>
+            <p> Here is her Instagram as well.</p> <a href="https://www.instagram.com/alyssarosaliephotography/"/> ALYSSA ROSALIE PHOTOGRAPHY . 
+            
+            
+            
+            
+            
+            </figure> 
+    </body>
+</html>
